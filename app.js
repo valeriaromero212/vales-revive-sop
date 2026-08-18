@@ -6,7 +6,6 @@ const navLinks = [...document.querySelectorAll('.nav-link')];
 
 menuButton.addEventListener('click', () => sidebar.classList.toggle('open'));
 navLinks.forEach(link => link.addEventListener('click', () => sidebar.classList.remove('open')));
-document.querySelector('#printButton').addEventListener('click', () => window.print());
 document.querySelector('#today').textContent = new Date().toLocaleDateString(undefined, {year:'numeric', month:'long', day:'numeric'});
 
 searchInput.addEventListener('input', () => {
