@@ -19,17 +19,20 @@
     <p class="sidebar-label"><span aria-hidden="true">&#127827;</span> VALE'S REVIVE SOP</p>
     <nav>
       <a class="nav-link active" href="#start">Home</a>
+      <p class="nav-group">SHIFT &amp; PATIENT FLOW</p>
       <a class="nav-link" href="#daily">Daily Procedures</a>
       <a class="nav-link" href="#new-member">New Practice Member</a>
       <a class="nav-link" href="#rof">Report of Findings</a>
-      <a class="nav-link" href="#care-plans">Scheduling & Care Plans</a>
       <a class="nav-link" href="#current">Current Patients</a>
       <a class="nav-link" href="#services">Services & Therapies</a>
       <a class="nav-link" href="#treatment-reference">Treatment Quick Reference</a>
-      <a class="nav-link" href="#platinum-codes">Platinum Codes</a>
-      <a class="nav-link" href="#call-scripts">Call Scripts</a>
-      <a class="nav-link" href="#insurance">Insurance</a>
-      <a class="nav-link" href="#phones">Phone & Follow-up</a>
+      <a class="nav-link" href="#payments">Payments & Pricing</a>
+      <p class="nav-group">SYSTEMS</p>
+      <a class="nav-link" href="#care-plans">Platinum Step-by-Step</a>
+      <a class="nav-link" href="#insurance">Insurance Verification</a>
+      <a class="nav-link" href="#platinum">Codes, Colors & Legend</a>
+      <p class="nav-group">CALLS &amp; QUICK ANSWERS</p>
+      <a class="nav-link" href="#phones">Scripts & Phone Calls</a>
       <a class="nav-link" href="#faq">FAQ</a>
     </nav>
   </aside>
@@ -47,8 +50,8 @@
       <div class="quick-grid">
         <a href="#daily"><span>01</span><strong>Daily Procedures</strong><small>Opening, afternoon reset, and closing</small></a>
         <a href="#new-member"><span>02</span><strong>New Practice Member</strong><small>Day 1 steps and documentation</small></a>
-        <a href="#phones"><span>03</span><strong>Phone Procedures</strong><small>Scheduling, confirmations, and follow-up</small></a>
-        <a href="#platinum"><span>04</span><strong>Platinum Reference</strong><small>Appointment codes and shortcuts</small></a>
+        <a href="#care-plans"><span>07</span><strong>Platinum Step-by-Step</strong><small>Calendar, care plans, services, and reminders</small></a>
+        <a href="#phones"><span>10</span><strong>Scripts &amp; Phone Calls</strong><small>Scheduling, confirmations, and follow-up</small></a>
       </div>
       <div class="flower-divider" aria-hidden="true"><span>&#127827;</span></div>
     </section>
@@ -62,7 +65,7 @@
           <li>Set adjustment and consultation rooms to the EHR screen; set the check-in computer to Arrivals.</li>
           <li>Run the X-ray computer test blank and turn on the SoftWave unit.</li>
           <li>Review and respond to Sked messages and voicemails.</li>
-          <li>Enter new leads from approved lead sources and check the office inbox.</li>
+          <li>Enter new leads from HighLevel and Sked, then check the office inbox.</li>
           <li>Call any same-day new practice members or Reports of Findings that are still unconfirmed. Then confirm the next business day's new practice members and Reports of Findings.</li>
           <li>Check submitted intakes and upload them to the correct patient account.</li>
           <li>Verify pending insurance items, prioritizing upcoming appointments.</li>
@@ -123,12 +126,12 @@
           <li>If the appointment is U or 2, confirm it and change the code before check-in. Update the patient information, then mark them arrived.</li>
           <li>Fill out the Consultation History/Day 1 and Exam Form/Range of Motion in red pen. Put them with the intake on the clipboard. Offer tea or water.</li>
           <li>Give the clipboard to the patient coordinator and walk the patient to an open consultation room.</li>
-          <li>The visit goes in this order: consultation, doctor&rsquo;s exam, X-rays, and SoftWave mapping if needed.</li>
+          <li>The visit goes in this order: consultation, doctor&rsquo;s exam, X-rays, then SoftWave mapping when it is listed for the visit.</li>
           <li>Schedule the ROF, collect the Day 1 fee, give the receipt, and explain that confirmation and reminder texts will be sent.</li>
-          <li>Scan the intake, ID, insurance verification, Day 1 form, exam form, signed receipt when needed, and any other records into the patient&rsquo;s account.</li>
+          <li>Scan the intake, ID, insurance verification, Day 1 form, exam form, signed receipt unless cash, and any Optum forms or MRI reports into the patient&rsquo;s account.</li>
         </ol>
       </article>
-      <div class="script"><span>WELCOME</span><p>"Welcome to Revive Chiropractic. My name is [name]. While you finish the paperwork, I'll copy your driver's license and insurance card so we can verify it for you. Please let me know if you have any questions."</p></div>
+      <div class="script"><span>WELCOME</span><p>"Welcome to Revive Chiropractic. My name is Valeria. While you finish the paperwork, I'll copy your driver's license and insurance card so we can verify it for you. Please let me know if you have any questions."</p></div>
       <article class="card caution"><h3>X-ray room</h3><p>Pull up the correct patient on the X-ray computer. Ask the patient to remove all metal items and empty their pockets. Let the doctor know when the patient is ready.</p></article>
     </section>
 
@@ -149,8 +152,15 @@
       <article class="card"><h3>First-adjustment message timing</h3><ol class="steps"><li>Open Sked after the patient completes the first adjustment.</li><li>If the adjustment was in the morning, schedule the message for that afternoon.</li><li>If the adjustment was in the afternoon, schedule the message for the next morning.</li><li>Before saving, check the patient name, phone number, template, send date, and send time.</li></ol></article>
     </section>
 
+    <section id="payments" class="sop-section searchable">
+      <div class="section-title"><span>07</span><div><h2>Payments &amp; Pricing</h2></div></div>
+      <article class="card"><h3>Taking a payment</h3><ol class="steps"><li>Open the patient account and read the F5 notes.</li><li>Match the amount and payment option to the signed care plan or the service listed for the visit.</li><li>Confirm whether it is pay in full, monthly, CareCredit, or pay per visit.</li><li>Take the payment in Fortis and save the card to the Fortis vault.</li><li>Give the patient the receipt and upload the signed copy when required.</li><li>Enter the payment and any needed note in Platinum before closing the account.</li></ol></article>
+      <article class="card caution"><h3>Price reference</h3><ul class="checklist compact"><li>$59 new-patient special: consultation and X-rays</li><li>$29 referral new-patient special</li><li>$67 decompression</li><li>$47 for each therapy added to a new-patient special</li></ul><p>Check the patient account and selected service in Platinum before charging.</p></article>
+      <article class="card"><h3>Payment questions</h3><ul class="checklist"><li>Never discuss a balance, payment, or care plan where other patients can hear.</li><li>If a patient wants to change a payment plan, schedule a private time with the office manager.</li><li>For pay-per-visit patients, charge the rate listed in the F5 notes at every visit.</li></ul></article>
+    </section>
+
     <section id="care-plans" class="sop-section searchable">
-      <div class="section-title"><span>04</span><div><p>PLATINUM WORKFLOW</p><h2>Scheduling & Care Plans</h2></div></div>
+      <div class="section-title"><span>07</span><div><p>PLATINUM WORKFLOW</p><h2>Platinum Step-by-Step</h2></div></div>
       <article class="card">
         <h3>Create the calendar after ROF</h3>
         <ol class="steps">
@@ -164,13 +174,13 @@
       </article>
       <div class="two-col">
         <article class="card"><h3>Set up the care plan</h3><ol class="steps"><li>Open the patient account and select <strong>Plan Start</strong>.</li><li>Enter the actual care start date.</li><li>Enter the patient portion from the signed care plan—not from memory.</li><li>Enter the allowed number of visits.</li><li>Select <strong>End Care Plan by Visits</strong> and <strong>Care Plan Option</strong>.</li><li>If applicable, select <strong>Keep Billing Insurance</strong>.</li><li>Exit to save; confirm the care-plan box turns blue.</li></ol></article>
-        <article class="card"><h3>Set up services</h3><ol class="steps"><li>Open the Service 1–6 link under the care plan.</li><li>Set Service #1 to the correct adjustment service. For insurance, use INS-ADJ 3–4 and enter the verified copay.</li><li>Use Service #3 for therapeutic exercises for ASH patients only.</li><li>When insurance coverage or active care ends, switch the service to Wellness.</li></ol></article>
+        <article class="card"><h3>Set up services</h3><ol class="steps"><li>Open the Service 1–6 link under the care plan.</li><li>Set Service #1 to the adjustment service shown on the signed plan. For insurance, use INS-ADJ 3–4 and enter the verified copay.</li><li>Use Service #3 for therapeutic exercises for ASH patients only.</li><li>When insurance coverage or active care ends, switch the service to Wellness.</li></ol></article>
       </div>
       <article class="card"><h3>Add stop managers</h3><ol class="steps"><li>From F5 notes, open <strong>Stop Manager</strong>; use F4 to add entries.</li><li>Add: 3 Block (if applicable), 7 Exercises, 12 remind first reassessment, 13 first reassessment, 23 remind second reassessment, 24 second reassessment, 35 remind re-X-ray, and 36 re-X-ray.</li><li>Add a service-change reminder where insurance or active care ends.</li><li>Add date-based reminders for payments, updated UHC forms, or other account needs.</li><li>Review every entry against the signed plan before saving.</li></ol></article>
     </section>
 
     <section id="current" class="sop-section searchable">
-      <div class="section-title"><span>05</span><div><p>PATIENT FLOW</p><h2>Current Patients</h2></div></div>
+      <div class="section-title"><span>04</span><div><p>PATIENT FLOW</p><h2>Current Patients</h2></div></div>
       <article class="card">
         <h3>Standard visit</h3>
         <ol class="steps"><li>Greet the patient and check alerts, stop managers, appointment codes, payment notes, and care-plan status.</li><li>Have them swipe the member card at the front desk and again in the adjustment room.</li><li>Do NMR or any other assigned exercises.</li><li>Send them to the next open, clean adjustment room.</li><li>Finish any payment, scheduling, and account notes before they leave.</li></ol>
@@ -178,7 +188,7 @@
       <div class="code-grid">
         <article class="code-blue"><b>E</b><strong>Start exercises</strong><p>Teach the patient's wobble-chair exercises. After the adjustment, show them their assigned cervical traction.</p></article>
         <article class="code-dark-pink"><b>R</b><strong>Reassessment</strong><p>Prepare for the scheduled re-exam, alert the patient coordinator/doctor, then continue flow as directed.</p></article>
-        <article class="code-light-pink"><b>X</b><strong>Re-X-ray</strong><p>Usually near the end of corrective care. After the assigned visit sequence, prepare the X-ray handoff and schedule the progressive ROF.</p></article>
+        <article class="code-light-pink"><b>X</b><strong>Re-X-ray</strong><p>After the adjustment and exercises, walk the patient to X-ray and notify the doctor. Schedule the progressive ROF after X-rays.</p></article>
         <article class="code-red"><b>P</b><strong>Progressive ROF</strong><p>Prepare before/after materials and alert the patient coordinator for the wellness-care discussion.</p></article>
         <article class="code-gold"><b>T</b><strong>SoftWave</strong><p>Follow the patient's assigned SoftWave workflow and room protocol.</p></article>
         <article class="code-light-green"><b>V</b><strong>Per visit</strong><p>Collect the per-visit amount shown in the patient's F5 note.</p></article>
@@ -186,7 +196,7 @@
     </section>
 
     <section id="services" class="sop-section searchable">
-      <div class="section-title"><span>06</span><div><p>ASSIGNED CARE</p><h2>Services & Therapies</h2></div></div>
+      <div class="section-title"><span>05</span><div><p>ASSIGNED CARE</p><h2>Services & Therapies</h2></div></div>
       <div class="two-col">
         <article class="card"><h3>NMR / wobble chair</h3><ol class="steps"><li>Check the appointment code to make sure the patient is starting exercises.</li><li>Show the patient the wobble-chair sequence.</li><li>When they finish, send them to the next clean adjusting room.</li></ol></article>
         <article class="card"><h3>Cervical traction</h3><ol class="steps"><li>Check that cervical traction is included for the patient.</li><li>Set it up using the position, repetitions, and timing listed for that patient.</li><li>If the patient feels pain or dizziness, stop and get the doctor.</li></ol></article>
@@ -194,11 +204,10 @@
         <article class="card"><h3>Decompression</h3><ol class="steps"><li>Check the patient’s prescribed level and timing before setup.</li><li>Set the machine to the prescribed level and time.</li><li>Document completion and tell the doctor about any discomfort or equipment concerns.</li></ol></article>
       </div>
       <article class="card"><h3>Other therapies</h3><p>For Graston or another therapy, check what is listed for the appointment, prepare the room and supplies, keep the patient moving through the visit, and enter the correct service when completed.</p></article>
-      <article class="card caution"><h3>Price reference</h3><ul class="checklist compact"><li>$59 new-patient special: consultation and X-rays</li><li>$29 referral new-patient special</li><li>$67 decompression</li><li>$47 for each therapy added to a new-patient special</li></ul><p>Check the price in Platinum before charging.</p></article>
     </section>
 
     <section id="treatment-reference" class="sop-section searchable">
-      <div class="section-title"><span>07</span><div><p>QUICK REFERENCE</p><h2>What Each Treatment Does</h2></div></div>
+      <div class="section-title"><span>06</span><div><p>QUICK REFERENCE</p><h2>What Each Treatment Does</h2></div></div>
       <div class="two-col treatment-reference-grid">
         <article class="card">
           <h3>Chiropractic adjustment</h3>
@@ -240,7 +249,7 @@
     </section>
 
     <section id="platinum" class="sop-section searchable">
-      <div class="section-title"><span>08</span><div><p>SYSTEM REFERENCE</p><h2>Platinum</h2></div></div>
+      <div class="section-title"><span>09</span><div><p>SYSTEM REFERENCE</p><h2>Codes, Colors &amp; Legend</h2></div></div>
       <article id="platinum-codes" class="card">
         <h3>Platinum codes and color legend</h3>
         <div class="appointment-board">
@@ -268,57 +277,57 @@
     </section>
 
     <section id="insurance" class="sop-section searchable">
-      <div class="section-title"><span>09</span><div><p>PATIENT COVERAGE</p><h2>Insurance Verification</h2></div></div>
+      <div class="section-title"><span>08</span><div><p>PATIENT COVERAGE</p><h2>Insurance Verification</h2></div></div>
       <article class="card">
         <h3>Verification workflow</h3>
-        <ol class="steps"><li>Have the verification form, member ID, date of birth, provider information, and insurance portal or phone number ready.</li><li>Write down the effective and renewal dates, chiropractic benefits, network status, copay or coinsurance, deductible and amount met, out-of-pocket maximum and amount met, visit limit and visits remaining, and authorization requirements.</li><li>Use ASH, Availity, Optum/UHC, Medicare, or the number on the back of the card as shown below.</li><li>Add the representative&rsquo;s name, call reference number, your name, the date, the portal result, and anything still pending.</li><li>Upload the verification and enter the benefits in Platinum.</li></ol>
+        <ol class="steps"><li>Have the verification form, member ID, date of birth, provider information, and insurance portal or phone number ready.</li><li>Write down the effective and renewal dates, chiropractic benefits, network status, copay or coinsurance, deductible and amount met, out-of-pocket maximum and amount met, visit limit and visits remaining, and authorization requirements.</li><li>Use ASH, Availity, Optum/UHC, Medicare, or the number on the back of the card as shown below.</li><li>Add the representative&rsquo;s name, call reference number, your name, the date, and the portal result. Mark any unanswered item as pending.</li><li>Upload the verification and enter the benefits in Platinum.</li></ol>
       </article>
       <article class="card"><h3>Where to verify</h3><div class="table-wrap"><table class="reference-table"><thead><tr><th>Plan</th><th>How to verify</th></tr></thead><tbody><tr><td>Florida Blue / Cigna</td><td>ASH online; submit a request if benefits are unclear.</td></tr><tr><td>Federal BCBS</td><td>Call ASH.</td></tr><tr><td>Other BCBS varieties</td><td>Call the number on the card. National number: 1-800-676-2583.</td></tr><tr><td>Aetna (out of network)</td><td>Availity; if no OON result, call the number on the card.</td></tr><tr><td>Humana</td><td>Availity.</td></tr><tr><td>UnitedHealthcare</td><td>UHC Verify, check Optum for authorization, and call the card when needed.</td></tr><tr><td>Medicare</td><td>Call and follow the step-by-step verification process.</td></tr></tbody></table></div></article>
     </section>
 
     <section id="phones" class="sop-section searchable">
-      <div class="section-title"><span>10</span><div><p>COMMUNICATION</p><h2>Phone & Follow-up</h2></div></div>
-      <div class="script"><span>STANDARD GREETING</span><p>"Thank you for calling Revive Chiropractic, this is [name]. How may I help you?"</p></div>
+      <div class="section-title"><span>10</span><div><p>COMMUNICATION</p><h2>Scripts &amp; Phone Calls</h2></div></div>
+      <div class="script"><span>STANDARD GREETING</span><p>"Thank you for calling Revive Chiropractic, this is Valeria. How may I help you?"</p></div>
       <article id="call-scripts" class="card">
         <h3>Call scripts by Platinum code</h3>
         <div class="code-actions">
           <section class="code-action code-purple">
             <div class="code-action-head"><b>F</b><span>PURPLE - Never been in the office</span></div>
             <p><strong>Action:</strong> Call to schedule a new-patient appointment. Create a new follow-up entry; do not overwrite the previous note. Record outcome, date, and initials.</p>
-            <blockquote>"Hello [name], this is [your name] calling from Revive Chiropractic. I saw that you requested information about our current new-patient offer, and I wanted to help schedule your first appointment. Would a morning or afternoon work better for you?"</blockquote>
-            <p class="voicemail"><strong>Voicemail:</strong> "Hello [name], this is [your name] calling from Revive Chiropractic about your new-patient request. Please call us back at [office number] so we can schedule your first appointment. Thank you."</p>
+            <blockquote>"Hello [name], this is Valeria calling from Revive Chiropractic. I saw that you requested information about our current new-patient offer, and I wanted to help schedule your first appointment. Would a morning or afternoon work better for you?"</blockquote>
+            <p class="voicemail"><strong>Voicemail:</strong> "Hello [name], this is Valeria calling from Revive Chiropractic about your new-patient request. Please call us back at [office number] so we can schedule your first appointment. Thank you."</p>
           </section>
           <section class="code-action code-orange">
             <div class="code-action-head"><b>G</b><span>ORANGE - X-rays completed, ROF not completed</span></div>
             <p><strong>Action:</strong> Call to schedule the Doctor's Report. Offer two available Report of Findings times, then update the calendar and note.</p>
-            <blockquote>"Hello [name], this is [your name] calling from Revive Chiropractic. We need to schedule your appointment to review your X-rays with the doctor. Would [option one] or [option two] work better for you?"</blockquote>
+            <blockquote>"Hello [name], this is Valeria calling from Revive Chiropractic. We need to schedule your appointment to review your X-rays with the doctor. Would [option one] or [option two] work better for you?"</blockquote>
           </section>
           <section class="code-action code-aqua">
             <div class="code-action-head"><b>W</b><span>AQUA - Did not start care after ROF</span></div>
             <p><strong>Action:</strong> Call to ask whether the patient has questions that should be routed to the office manager or doctor. Do not diagnose, discount, or change the care plan.</p>
-            <blockquote>"Hello [name], this is [your name] calling from Revive Chiropractic. I wanted to check in after your visit and see whether you had any questions we can pass along to the office manager or doctor."</blockquote>
+            <blockquote>"Hello [name], this is Valeria calling from Revive Chiropractic. I wanted to check in after your visit and see whether you had any questions we can pass along to the office manager or doctor."</blockquote>
           </section>
           <section class="code-action code-grey">
             <div class="code-action-head"><b>U / 2</b><span>GREY / RED - Unconfirmed NPM or ROF</span></div>
             <p><strong>Action:</strong> Call before arrival. If confirmed, change to the correct confirmed code. If not reached, keep the appropriate unconfirmed code and document the attempt.</p>
-            <blockquote>"Hello [name], this is [your name] calling from Revive Chiropractic to confirm your appointment for [day/date] at [time]. Please call us at [office number] to confirm or reschedule. Thank you."</blockquote>
+            <blockquote>"Hello [name], this is Valeria calling from Revive Chiropractic to confirm your appointment for [day/date] at [time]. Please call us at [office number] to confirm or reschedule. Thank you."</blockquote>
           </section>
           <section class="code-action code-green">
             <div class="code-action-head"><b>N</b><span>GREEN - Confirmed new practice member</span></div>
             <p><strong>Action:</strong> Check intake status, prepare forms, and confirm ID/insurance needs before arrival.</p>
-            <blockquote>"Hello [name], this is [your name] calling from Revive Chiropractic to confirm your new-patient appointment for [day/date] at [time]. We look forward to seeing you then."</blockquote>
+            <blockquote>"Hello [name], this is Valeria calling from Revive Chiropractic to confirm your new-patient appointment for [day/date] at [time]. We look forward to seeing you then."</blockquote>
           </section>
         </div>
       </article>
       <article class="card"><h3>Schedule a new practice member</h3><ol class="steps"><li>Ask for the caller's name.</li><li>Ask for the best callback number in case the call disconnects.</li><li>Ask whether morning or afternoon is better, then give them two available times.</li><li>Ask who referred them.</li><li>Repeat the appointment day and time.</li><li>Enter the new patient in Platinum, schedule the appointment, and add any notes from the call.</li></ol></article>
       <div class="script"><span>AFTER SCHEDULING - INTAKE LINK</span><p>"In a few minutes you'll receive a text from us. It'll have all your appointment information, including our address and a link to our paperwork. You can complete the forms online, and it'll save you a lot of time in the office."</p></div>
       <div class="two-col">
-        <div class="script"><span>NPM CONFIRMATION</span><p>"Hello [name], this is [name] calling from Revive Chiropractic to confirm your appointment for [day/date] at [time]. Great - we look forward to seeing you then."</p></div>
-        <div class="script"><span>ROF CONFIRMATION</span><p>"Hello [name], this is [name] calling from Revive Chiropractic to confirm your appointment for [day/date] at [time]. This is an important appointment, and we look forward to seeing you then."</p></div>
+        <div class="script"><span>NPM CONFIRMATION</span><p>"Hello [name], this is Valeria calling from Revive Chiropractic to confirm your appointment for [day/date] at [time]. Great - we look forward to seeing you then."</p></div>
+        <div class="script"><span>ROF CONFIRMATION</span><p>"Hello [name], this is Valeria calling from Revive Chiropractic to confirm your appointment for [day/date] at [time]. This is an important appointment, and we look forward to seeing you then."</p></div>
       </div>
       <article class="card"><h3>How to make a follow-up call</h3><p>Introduce yourself and say you are calling from Revive. Explain why you are calling and mention the person's inquiry, referral, or event. Ask whether morning or afternoon works better, then offer an available time. If you leave a voicemail, give the office callback number. Add the result of the call, the date, and your initials to the account.</p></article>
-      <details class="reference-details"><summary>Lead follow-up scripts</summary><div class="details-body"><h3>Online voucher / social lead</h3><p>“Hello [name], this is [your name] calling from Revive Chiropractic. I saw that you claimed one of our current new-patient offers, and I wanted to help schedule your first appointment. Would a morning or afternoon appointment work better?”</p><h3>Screening or event lead</h3><p>Thank the person for visiting the booth, reference only the concern they supplied, and offer two approved appointment choices. If they paid a deposit, note it in the account; if the consultation was complimentary, use the current approved offer.</p><h3>Lunch & Learn or referral</h3><p>Thank them for speaking with the team or identify the referring practice member, then offer the current approved consultation and a morning-or-afternoon choice. Do not promise services, X-rays, or pricing beyond the active offer.</p><p><strong>Voicemail:</strong> Identify yourself and Revive, state that you are calling about their appointment request, leave the approved callback number, and omit health details.</p></div></details>
-      <details class="reference-details"><summary>Missed ROF / Doctor’s Report</summary><div class="details-body"><p>“Hello [name], this is [your name] calling from Revive Chiropractic. We had you scheduled to review your X-rays with the doctor and would like to reschedule that appointment. Would [approved option one] or [approved option two] work better?”</p><p>Schedule the new appointment before ending the call when possible. Update the appointment code and add a dated note with initials.</p></div></details>
+      <details class="reference-details"><summary>Lead follow-up scripts</summary><div class="details-body"><h3>Online voucher / social lead</h3><p>“Hello [name], this is Valeria calling from Revive Chiropractic. I saw that you claimed one of our current new-patient offers, and I wanted to help schedule your first appointment. Would a morning or afternoon appointment work better?”</p><h3>Screening or event lead</h3><p>Thank the person for visiting the booth, reference only the concern they supplied, and offer two approved appointment choices. If they paid a deposit, note it in the account; if the consultation was complimentary, use the current approved offer.</p><h3>Lunch & Learn or referral</h3><p>Thank them for speaking with the team or identify the referring practice member, then offer the current approved consultation and a morning-or-afternoon choice. Do not promise services, X-rays, or pricing beyond the active offer.</p><p><strong>Voicemail:</strong> Identify yourself as Valeria from Revive, state that you are calling about their appointment request, leave the approved callback number, and omit health details.</p></div></details>
+      <details class="reference-details"><summary>Missed ROF / Doctor’s Report</summary><div class="details-body"><p>“Hello [name], this is Valeria calling from Revive Chiropractic. We had you scheduled to review your X-rays with the doctor and would like to reschedule that appointment. Would [option one] or [option two] work better?”</p><p>Schedule the new appointment before ending the call. Update the appointment code and add a dated note with initials.</p></div></details>
     </section>
 
     <section id="faq" class="sop-section searchable">
@@ -397,10 +406,6 @@
           <p>Write down the question and send it to the office manager or doctor. Do not change the plan, price, or recommendation yourself.</p>
         </div>
       </details>
-    </section>
-
-    <section class="sop-section">
-      <p class="revision">Vale's Revive SOP &middot; Last reviewed: <span id="today"></span>.</p>
     </section>
 
     <div id="noResults" class="no-results" hidden>No matching SOP content found.</div>
